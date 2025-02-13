@@ -1,6 +1,6 @@
 // Destructuring
 
-const { SOMME , PRODUIT } = require('./mathsLib.cjs');
+const { SOMME , PRODUIT } = require('./mathsLib.mjs');
 
 console.log(SOMME(4,7));
 console.log(PRODUIT(4,2));
